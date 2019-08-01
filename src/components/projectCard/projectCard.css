@@ -1,0 +1,148 @@
+.card-wrapper {
+  margin: 30px;
+  width: 300px;
+  height: 350px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 90;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.01);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* corner github ribbon */
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon {
+  font: bold 15px Sans-Serif;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  z-index: 9;
+  background-color: #fca311;
+  background-image: -webkit-linear-gradient(top, #fca311, #fcb33c);
+  background-image: -moz-linear-gradient(top, #fca311, #fcb33c);
+  background-image: -ms-linear-gradient(top, #fca311, #fcb33c);
+  background-image: -o-linear-gradient(top, #fca311, #fcb33c);
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: "";
+  border-top: 3px solid #fca311;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px;
+}
+
+.ribbon:before {
+  left: 0;
+}
+
+.ribbon:after {
+  right: 0;
+}
+
+.ribbon a {
+  text-decoration: none;
+  color: #222222;
+  padding: 8px;
+}
+
+/* project card content */
+
+.thumbnail-img img {
+  width: 300px;
+  max-height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-content {
+  text-align: center;
+  color: #404040;
+}
+
+.project-title {
+  margin: 5px 0;
+  font-family: "Arvo", serif;
+}
+
+.project-info {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0.5em 1em;
+}
+
+/* project card buttons */
+.btn {
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 0 12px;
+  border-radius: 5px;
+}
+
+.btn-dark {
+  color: #ffffff;
+  padding: 6px 8px;
+  background-color: rgb(76, 105, 233);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.btn-dark:hover {
+  background-color: rgb(99, 48, 222);
+}
+
+.btn-dark:focus {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.project-labels {
+  font-size: 0.8rem;
+  color: #404040;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 10;
+  margin: 0.3em;
+}
+
+.project-labels span {
+  text-align: center;
+  margin: 0 5px;
+  padding: 2px 4px;
+  border-radius: 6px;
+  background-color: rgb(0, 0, 0, 0.1);
+}
