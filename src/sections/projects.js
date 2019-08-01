@@ -1,12 +1,12 @@
 import React from 'react';
 import SectionLayout from '../components/section/section';
 
-const About = () => {
+const Projects = () => {
     return(
         <SectionLayout>
-            <h1 id="about">About me</h1>
+            <h1 id="portfolio">projects</h1>
         </SectionLayout>
     )
 }
 
-export default About;
+export default Projects;
