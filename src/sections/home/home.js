@@ -1,6 +1,5 @@
 import React from 'react';
 import{graphql,useStaticQuery} from 'gatsby';
-import SectionLayout from '../../components/section/section';
 import Header from '../../components/header/header';
 import './home.css';
 
@@ -19,7 +18,6 @@ const Home = () => {
     )
     
     return(
-        <SectionLayout>
             <div className="home-content">
             <Header />
             <div className="profile-container">
@@ -35,8 +33,7 @@ const Home = () => {
                     Know More <span className="right-arrow">&rarr;</span>
                 </a>       
                 </div>
-            </div>
-        </SectionLayout>
+            </div>         
     )
 }
 
