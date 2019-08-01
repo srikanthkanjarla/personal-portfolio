@@ -1,7 +1,7 @@
 import Typography from 'typography'; 
-import noriegaTheme from 'typography-theme-noriega'
-
-const typography = new Typography(noriegaTheme)
+import oceanBeachTheme from 'typography-theme-ocean-beach'
+ 
+const typography = new Typography(oceanBeachTheme);
  
 export const {rhythm} = typography;
 export default typography;
