@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+.home-content {
+  height: 90vh;
+  min-height: 50vh;
+  background-color: rgb(99, 48, 222);
+  background: linear-gradient(
+      277deg,
+      rgba(213, 213, 213, 0.02) 0%,
+      rgba(213, 213, 213, 0.02) 50%,
+      rgba(42, 42, 42, 0.02) 50%,
+      rgba(42, 42, 42, 0.02) 100%
+    ),
+    linear-gradient(
+      295deg,
+      rgba(73, 73, 73, 0.03) 0%,
+      rgba(73, 73, 73, 0.03) 50%,
+      rgba(229, 229, 229, 0.03) 50%,
+      rgba(229, 229, 229, 0.03) 100%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(77, 77, 77, 0.01) 0%,
+      rgba(77, 77, 77, 0.01) 50%,
+      rgba(123, 123, 123, 0.01) 50%,
+      rgba(123, 123, 123, 0.01) 100%
+    ),
+    linear-gradient(
+      54deg,
+      rgba(51, 51, 51, 0.03) 0%,
+      rgba(51, 51, 51, 0.03) 50%,
+      rgba(29, 29, 29, 0.03) 50%,
+      rgba(29, 29, 29, 0.03) 100%
+    ),
+    linear-gradient(
+      170deg,
+      rgba(9, 9, 9, 0.02) 0%,
+      rgba(9, 9, 9, 0.02) 50%,
+      rgba(243, 243, 243, 0.02) 50%,
+      rgba(243, 243, 243, 0.02) 100%
+    ),
+    linear-gradient(
+      264deg,
+      rgba(214, 214, 214, 0.01) 0%,
+      rgba(214, 214, 214, 0.01) 50%,
+      rgba(153, 153, 153, 0.01) 50%,
+      rgba(153, 153, 153, 0.01) 100%
+    ),
+    linear-gradient(90deg, rgb(99, 48, 222), rgb(76, 105, 233));
+}
+.profile-container {
+  padding: 4.2rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #eef0f2;
+}
+
+.profile-title {
+  font-size: 2.5rem;
+}
+
+.profile-name {
+  font-size: 3.5rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.profile-text {
+  font-size: 1.4rem;
+}
+
+.profile-role {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+.profile-name,
+.profile-role {
+  color: #ffffff;
+  font-family: "Concert One", cursive;
+  text-shadow: 2px 2px 5px #ff0088;
+}
+
+.contact-link {
+  flex: 1;
+  padding: 0.7rem 1.8rem;
+  margin: 3rem 0;
+  border-radius: 1.5rem;
+  background-color: rgb(76, 105, 233);
+  transition: all 0.2s ease-in;
+  color: #ececec;
+  font-weight: 800;
+  box-shadow: 0 0 1px 1px #ffffff;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  background-color: rgb(99, 48, 222);
+  transition: all 0.2s ease-in;
+  transform: scale(1.01);
+}
+.right-arrow {
+  margin-left: 0.4em;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #ffffff;
+}
