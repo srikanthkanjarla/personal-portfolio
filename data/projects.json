@@ -1,0 +1,10 @@
+[
+  {
+    "image": "images/pomodoro.png",
+    "title": "Pomodoro Timer",
+    "description": "It is an easy to use Pomodoro Timer App, Helps to break down work into intervals",
+    "livePath": "https://srikanthkanjarla.github.io/pomodoro-timer/",
+    "sourcePath": "https://github.com/srikanthkanjarla/pomodoro-timer",
+    "labels": ["React", "Redux", "IndexedDB"]
+  }
+]
