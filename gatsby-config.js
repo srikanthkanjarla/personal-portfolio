@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `Srikanth Kanjarla`,
-    role:`Front End Developer`,
+    role: `Front End Developer`,
     description: `Front-End Developer, JavaScript, React.js`,
     author: `@srikanthkanjarla`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve:`gatsby-plugin-typography`,
-      options:{
-        pathToConfigModule:`src/utils/typography`,
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
     {
@@ -46,4 +46,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
