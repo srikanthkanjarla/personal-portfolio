@@ -1,11 +1,11 @@
 .container {
-  min-height: 100vh;
+  min-height: 60vh;
   width: 100%;
   text-align: center;
+  padding: 1em;
 }
 
 .container h3 {
-  margin: 0.8em 0;
   font-family: "Concert One", cursive;
 }
 
