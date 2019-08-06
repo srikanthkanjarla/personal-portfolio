@@ -8,11 +8,6 @@ const Layout = props => {
     <>
       <div id="home">
         <main>{children}</main>
-        <footer style={{ textAlign: 'center' }}>
-          © {new Date().getFullYear()}
-          {` `}
-          <a href="https://github.com/srikanthkanjarla">srikanth kanjarla</a>
-        </footer>
       </div>
     </>
   );
