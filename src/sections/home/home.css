@@ -87,7 +87,7 @@
   border-radius: 1.5rem;
   background-color: rgb(76, 105, 233);
   transition: all 0.2s ease-in;
-  color: #ececec;
+  color: #ffffff;
   font-weight: 800;
   box-shadow: 0 0 1px 1px #ffffff;
 }
@@ -98,9 +98,8 @@
   transition: all 0.2s ease-in;
   transform: scale(1.01);
 }
-.right-arrow {
+.arrow {
   margin-left: 0.4em;
-  font-size: 1.5em;
-  font-weight: 900;
+
   color: #ffffff;
 }
