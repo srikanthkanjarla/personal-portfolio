@@ -19,7 +19,7 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
-    "prettier/prettier":  [
+    "prettier/prettier": [
       "error",
       {
         "trailingComma": "es5",
@@ -32,7 +32,6 @@
     "import/no-extraneous-dependencies": "off",
     "react/jsx-filename-extension": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "no-console": 0,
     "jsx-a11y/label-has-for": [
       2,
       {
