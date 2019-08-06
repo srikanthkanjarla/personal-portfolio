@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 1em;
+  text-align: center;
+  background-color: rgba(99, 48, 222, 0.8);
+  color: #cccccc;
+  padding: 0.1em;
+}
+.footer a {
+  margin: 0.3em;
+  font-size: 1.5em;
+  color: #cccccc;
+}
+.footer a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+  transition: all 0.2s ease-out;
+}
+
+.footer .copy-right {
+  margin: 0;
+}
