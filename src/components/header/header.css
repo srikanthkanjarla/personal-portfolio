@@ -4,6 +4,11 @@
   align-items: center;
   font-family: "Concert One", cursive;
 }
+
+.headroom--pinned {
+  background: linear-gradient(90deg, rgb(99, 48, 222), rgb(76, 105, 233));
+}
+
 .navbar {
   flex: 1;
   display: flex;
@@ -43,4 +48,9 @@
 
 .navbar .fa-github {
   font-size: 2rem;
+}
+
+.nav-links .github-profile {
+  border-radius: 0.2em;
+  border: 2px solid #ffffff;
 }
