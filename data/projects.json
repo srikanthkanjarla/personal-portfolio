@@ -2,105 +2,97 @@
   {
     "image": "images/pomodoro.png",
     "title": "Pomodoro Timer",
-    "description": "It is an easy to use Pomodoro Timer App, Helps to break down work into intervals",
+    "description": "This simple easy-to-use Pomodoro Timer App helps the user breakdown work into intervals",
     "livePath": "https://srikanthkanjarla.github.io/pomodoro-timer/",
     "sourcePath": "https://github.com/srikanthkanjarla/pomodoro-timer",
     "labels": ["React", "Redux", "IndexedDB"]
   },
   {
     "image": "images/quote.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
+    "title": "Random Quote Machine",
+    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Quotes API", "JSONP"]
+  },
+  {
+    "image": "images/quote.png",
+    "title": "Markdown Previewer",
+    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Quotes API", "JSONP"]
+  },
+  {
+    "image": "images/quote.png",
+    "title": "Calculator",
+    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Quotes API", "JSONP"]
+  },
+  {
+    "image": "images/quote.png",
+    "title": "Music Drum Kit",
+    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Quotes API", "JSONP"]
+  },
+  {
+    "image": "images/quote.png",
+    "title": "Google Book Finder",
+    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Quotes API", "JSONP"]
+  },
+  {
+    "image": "images/quote.png",
+    "title": "Movie Web App",
+    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Quotes API", "JSONP"]
   },
   {
     "image": "images/weather.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
+    "title": "Local Weather App",
+    "description": "This simple weather application allows users to know the current forecast",
+    "livePath": "https://srikanthkanjarla.github.io/Local-Weather-App/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Local-Weather-App",
+    "labels": ["JavaScript", "weather API", "Geoloaction API"]
   },
   {
     "image": "images/stopwatch.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
+    "title": "Stop watch",
+    "description": "This is a simple stopwatch with a stop and start feature",
+    "livePath": "https://srikanthkanjarla.github.io/stop-watch/",
+    "sourcePath": "https://github.com/srikanthkanjarla/stop-watch",
+    "labels": ["JavaScript", "HTML", "CSS"]
   },
   {
-    "image": "images/memory_game.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
+    "image": "images/quote.png",
+    "title": "Fun Memory Game",
+    "description": "This is a memory game where the user needs to flip tiles then match pairs of tiles with the same number",
+    "livePath": "https://srikanthkanjarla.github.io/memory-match-game/",
+    "sourcePath": "https://github.com/srikanthkanjarla/memory-match-game/",
+    "labels": ["JavaScript", "HTML", "CSS"]
   },
   {
     "image": "images/documentation.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
+    "title": "Documentation Page",
+    "description": "This documentation page was submitted for the freeCodeCamp Responsive Web Design certification",
+    "livePath": "https://srikanthkanjarla.github.io/technical-documentation-page/",
+    "sourcePath": "https://github.com/srikanthkanjarla/technical-documentation-page/",
+    "labels": ["JavaScript", "HTML", "CSS"]
   },
   {
     "image": "images/kalam.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
-  },
-  {
-    "image": "images/pomodoro.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
-  },
-  {
-    "image": "images/pomodoro.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
-  },
-  {
-    "image": "images/pomodoro.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
-  },
-  {
-    "image": "images/pomodoro.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
-  },
-  {
-    "image": "images/pomodoro.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
-  },
-  {
-    "image": "images/pomodoro.png",
-    "title": "",
-    "description": "",
-    "livePath": "",
-    "sourcePath": "",
-    "labels": []
+    "title": "Tribute Page",
+    "description": "This page is a Tribute to the Missile Man of India Dr. APJ Abdul Kalam",
+    "livePath": "https://srikanthkanjarla.github.io/Tribute_Page/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Tribute_Page/",
+    "labels": ["HTML", "CSS", "JavaScript"]
   }
 ]
