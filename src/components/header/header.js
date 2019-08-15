@@ -10,7 +10,7 @@ const Header = () => {
     <header className="header" id="nav-bar">
       <nav className="navbar">
         <div className="logo">
-          <p className="logo-text">&lt; S &gt;</p>
+          <p className="logo-text">&lt;S /&gt;</p>
         </div>
         <div className="nav-links">
           <AnchorLink href="#home">Home</AnchorLink>
