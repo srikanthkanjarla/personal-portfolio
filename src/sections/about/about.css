@@ -8,11 +8,11 @@
 .about-container p a {
   color: inherit;
   text-decoration: underline;
+  color: #6330de;
 }
 
 .about-container p a:hover {
-  color: #6330de;
-  text-decoration: underline;
+  font-weight: 600;
 }
 .about-container li {
   color: #6330de;
