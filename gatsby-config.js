@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/personal-portfolio',
   siteMetadata: {
     title: `Srikanth Kanjarla`,
     role: `Front End Developer`,
