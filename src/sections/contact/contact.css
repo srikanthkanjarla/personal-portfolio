@@ -1,43 +1,25 @@
 .contact-container {
-  padding: 1.5em 0;
+  max-width: 25em;
+  margin: 0 auto;
 }
 .contact-msg {
-  font-size: 1.8em;
-  margin: 1.5em 0;
-  color: #454545;
-}
-.email-container {
-  box-shadow: 0 0 0.2em 0.02em #6330de;
-  border-radius: 0.5em;
-  width: 23em;
-  margin: 0 auto;
-  position: relative;
-  padding: 1.8em 1em;
-}
-.copy-btn {
-  position: absolute;
-  right: 2px;
-  top: 1px;
-  background: transparent;
-  border: none;
-  color: #6330de;
-  cursor: pointer;
-  transition: all 0.8s ease-in;
-}
-.copy-btn span {
-  margin-right: 0.3rem;
-  font-size: 0.8em;
-}
-.contact-email {
   font-size: 1.5em;
-  /* padding: 1.2em 1em; */
+  margin: 1em 0;
   color: #6330de;
 }
 .social-links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0.5em 0;
+  margin-top: 2em;
+  border-radius: 0.3em;
+}
+.social-links p {
+  color: rgba(99, 48, 222, 0.7);
+}
+.social-links .wrapper {
+  display: flex;
 }
 .contact-icon {
   background-color: rgba(99, 48, 222, 0.1);
@@ -65,4 +47,55 @@
 }
 .facebook-icon {
   color: #3b5998;
+}
+.social-links p {
+  margin: 0;
+  color: #6330de;
+}
+.social-links p::before,
+.social-links p::after {
+  content: "";
+  border-top: 2px solid #6330de;
+  top: 12px;
+  margin: 0 0.4em;
+  padding: 0 3em;
+  position: relative;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin: 0.6em 0;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid rgba(99, 48, 222, 0.5);
+  /* box-shadow: 0 0 0.1em 0.001em #6330de; */
+  color: #6330de;
+  outline: none;
+  font-size: 1.2em;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 2px 2px #4c15cc;
+  border: none;
+}
+button[type="submit"] {
+  background-color: #6330de;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #6330de;
+  padding: 0.5em;
+  border-radius: 2em;
+  width: 50%;
+  margin: 0.5em auto;
+}
+button[type="submit"]:hover {
+  color: #6330de;
+  background-color: #ffffff;
+  transition: 0.2s all ease-in;
 }
