@@ -16,44 +16,44 @@
     "labels": ["React", "Quotes API", "JSONP"]
   },
   {
-    "image": "images/quote.png",
+    "image": "images/markdown.png",
     "title": "Markdown Previewer",
-    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
-    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
-    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
-    "labels": ["React", "Quotes API", "JSONP"]
-  },
-  {
-    "image": "images/quote.png",
-    "title": "Calculator",
-    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
-    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
-    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
-    "labels": ["React", "Quotes API", "JSONP"]
-  },
-  {
-    "image": "images/quote.png",
-    "title": "Music Drum Kit",
-    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
-    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
-    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
-    "labels": ["React", "Quotes API", "JSONP"]
-  },
-  {
-    "image": "images/quote.png",
-    "title": "Google Book Finder",
-    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
-    "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
-    "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
-    "labels": ["React", "Quotes API", "JSONP"]
+    "description": "This is the Markdown editor with live preview, using the marked.js",
+    "livePath": "https://srikanthkanjarla.github.io/markdown-previewer/",
+    "sourcePath": "https://github.com/srikanthkanjarla/markdown-previewer",
+    "labels": ["React", "Marked.JS"]
   },
   {
     "image": "images/quote.png",
     "title": "Movie Web App",
-    "description": "This simple web app generates a random quote and allows the user to tweet the quote via twitter",
+    "description": "This is a IMDB style Movie App based on The Movie DB API",
     "livePath": "https://srikanthkanjarla.github.io/Random-Quote-Machine/",
     "sourcePath": "https://github.com/srikanthkanjarla/Random-Quote-Machine",
+    "labels": ["React", "Movie DB API"]
+  },
+  {
+    "image": "images/calculator.png",
+    "title": "Calculator",
+    "description": "Calculator is a simple application to perform basic math calculations.",
+    "livePath": "https://srikanthkanjarla.github.io/Calculator/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Calculator",
     "labels": ["React", "Quotes API", "JSONP"]
+  },
+  {
+    "image": "images/bookfinder.png",
+    "title": "Google Book Finder",
+    "description": "Find Google books with just one search,user can search for book titles based on authors, topics, or titles",
+    "livePath": "https://srikanthkanjarla.github.io/book-finder/",
+    "sourcePath": "https://github.com/srikanthkanjarla/book-finder",
+    "labels": ["React", "Google books API", "MaterialUI"]
+  },
+  {
+    "image": "images/drumkit.png",
+    "title": "Music Drum Kit",
+    "description": "A very easy to use virtual drum machine. user can play the sound of electronic drums online",
+    "livePath": "https://srikanthkanjarla.github.io/Drum_Machine/",
+    "sourcePath": "https://github.com/srikanthkanjarla/Drum_Machine",
+    "labels": ["React", "React Hooks", "Sass"]
   },
   {
     "image": "images/weather.png",
@@ -64,19 +64,19 @@
     "labels": ["JavaScript", "weather API", "Geoloaction API"]
   },
   {
+    "image": "images/memorygame.png",
+    "title": "Fun Memory Game",
+    "description": "This is a memory game where the user needs to flip tiles then match pairs of tiles with the same number",
+    "livePath": "https://srikanthkanjarla.github.io/memory-match-game/",
+    "sourcePath": "https://github.com/srikanthkanjarla/memory-match-game/",
+    "labels": ["JavaScript", "HTML", "CSS"]
+  },
+  {
     "image": "images/stopwatch.png",
     "title": "Stop watch",
     "description": "This is a simple stopwatch with a stop and start feature",
     "livePath": "https://srikanthkanjarla.github.io/stop-watch/",
     "sourcePath": "https://github.com/srikanthkanjarla/stop-watch",
-    "labels": ["JavaScript", "HTML", "CSS"]
-  },
-  {
-    "image": "images/quote.png",
-    "title": "Fun Memory Game",
-    "description": "This is a memory game where the user needs to flip tiles then match pairs of tiles with the same number",
-    "livePath": "https://srikanthkanjarla.github.io/memory-match-game/",
-    "sourcePath": "https://github.com/srikanthkanjarla/memory-match-game/",
     "labels": ["JavaScript", "HTML", "CSS"]
   },
   {
@@ -93,6 +93,6 @@
     "description": "This page is a Tribute to the Missile Man of India Dr. APJ Abdul Kalam",
     "livePath": "https://srikanthkanjarla.github.io/Tribute_Page/",
     "sourcePath": "https://github.com/srikanthkanjarla/Tribute_Page/",
-    "labels": ["HTML", "CSS", "JavaScript"]
+    "labels": ["HTML", "CSS"]
   }
 ]
