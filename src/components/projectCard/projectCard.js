@@ -6,12 +6,12 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import './projectCard.css';
 
-const Ribbon = props => {
-  const { githubURL } = props;
+const CornerRibbon = props => {
+  const { path } = props;
   return (
     <div className="ribbon-wrapper">
       <div className="ribbon">
-        <a href={githubURL} target="_blank" title="github source" rel="noopener noreferrer">
+        <a href={path} target="_blank" title="github source" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} /> Source
         </a>
       </div>
@@ -20,9 +20,9 @@ const Ribbon = props => {
 };
 
 const ButtonLink = props => {
-  const { liveURL } = props;
+  const { path } = props;
   return (
-    <a href={liveURL} className="btn btn-dark" target="_blank" rel="noopener noreferrer">
+    <a href={path} className="btn btn-dark" target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon icon={faLink} style={{ marginRight: '0.5em', fontSize: '0.8em' }} />
       Visit Live
     </a>
@@ -43,14 +43,14 @@ const ProjectCard = props => {
   const { title, description, image, liveURL, githubURL, labels } = props;
   return (
     <div className="card-wrapper">
-      <Ribbon githubURL={githubURL} />
+      <CornerRibbon path={githubURL} />
       <div className="thumbnail-img">
         <Image fluid={image} alt={title} />
       </div>
       <div className="project-content">
         <h2 className="project-title">{title}</h2>
         <p className="project-info">{description}</p>
-        <ButtonLink liveURL={liveURL} />
+        <ButtonLink path={liveURL} />
         <ProjectLabels labels={labels} />
       </div>
     </div>
