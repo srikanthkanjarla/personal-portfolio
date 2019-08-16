@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { navigate } from 'gatsby-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faLinkedinIn, faFacebookF, faGithub } from '@fortawesome/free-brands-svg-icons';
 import SectionLayout from '../../components/section/section';
 import './contact.css';
+
+function encode(data) {
+  return Object.keys(data)
+    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+    .join('&');
+}
 
 const style = {
   borderTop: '1px solid #ff0088',
@@ -29,14 +36,42 @@ const Contact = () => {
     `
   );
 
+  const [state, setState] = useState({});
+
+  const handleChange = event => {
+    setState({ ...state, [event.target.name]: event.target.value });
+  };
+
+  const handleSubmit = event => {
+    event.preventDefault();
+    const form = event.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute('action')))
+      .catch(error => error);
+  };
+
   const { email, twitter, facebook, linkedIn, github } = data.allDataJson.edges[0].node;
   return (
     <SectionLayout title="Let's Get in touch" id="contact" style={style}>
       <div className="contact-container">
-        <form name="contact" method="POST" data-netlify="true">
-          <input type="text" name="username" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea rows="4" name="message" placeholder="Message" required />
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={handleSubmit}
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="text" name="name" placeholder="Your Name" required onChange={handleChange} />
+          <input type="email" name="email" placeholder="Your Email" required onChange={handleChange} />
+          <textarea rows="4" name="message" placeholder="Message" required onChange={handleChange} />
           <button type="submit">
             send message <FontAwesomeIcon icon={faPaperPlane} />
           </button>
