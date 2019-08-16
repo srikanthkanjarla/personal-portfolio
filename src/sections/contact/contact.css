@@ -100,7 +100,7 @@ button[type="submit"]:hover {
   transition: 0.2s all ease-in;
 }
 .thankyou-msg {
-  min-height: 250px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;

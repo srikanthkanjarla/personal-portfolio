@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import { navigate } from 'gatsby-link';
+// import { navigate } from 'gatsby-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane, faEnvelope, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faLinkedinIn, faFacebookF, faGithub } from '@fortawesome/free-brands-svg-icons';
 import SectionLayout from '../../components/section/section';
 import './contact.css';
@@ -37,6 +37,7 @@ const Contact = () => {
   );
 
   const [state, setState] = useState({});
+  const [isMessageSent, setMessageSent] = useState(false);
 
   const handleChange = event => {
     setState({ ...state, [event.target.name]: event.target.value });
@@ -53,31 +54,46 @@ const Contact = () => {
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then(() => {
+        setMessageSent(true);
+        setState({});
+      })
       .catch(error => error);
+  };
+
+  const handleThankYou = event => {
+    event.preventDefault();
+    setMessageSent(false);
   };
 
   const { email, twitter, facebook, linkedIn, github } = data.allDataJson.edges[0].node;
   return (
     <SectionLayout title="Let's Get in touch" id="contact" style={style}>
       <div className="contact-container">
-        <form
-          name="contact"
-          method="post"
-          action="/thank-you"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
-        >
-          <input type="hidden" name="form-name" value="contact" />
-          <input type="text" name="name" placeholder="Your Name" required onChange={handleChange} />
-          <input type="text" name="email" placeholder="Your Email" required onChange={handleChange} />
-          <textarea rows="4" name="message" placeholder="Message" required onChange={handleChange} />
-          <button type="submit">
-            send message <FontAwesomeIcon icon={faPaperPlane} />
-          </button>
-        </form>
-
+        {!isMessageSent ? (
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit}
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="text" name="name" placeholder="Your Name" required onChange={handleChange} />
+            <input type="text" name="email" placeholder="Your Email" required onChange={handleChange} />
+            <textarea rows="4" name="message" placeholder="Message" required onChange={handleChange} />
+            <button type="submit">
+              send message <FontAwesomeIcon icon={faPaperPlane} />
+            </button>
+          </form>
+        ) : (
+          <div className="thankyou-msg">
+            <h2>Thank you for your submission!</h2>
+            <button type="submit" onClick={handleThankYou}>
+              close <FontAwesomeIcon icon={faTimes} />
+            </button>
+          </div>
+        )}
         <div className="social-links">
           <p>Join me here</p>
           <div className="wrapper">
