@@ -54,3 +54,23 @@
   border-radius: 0.2em;
   border: 2px solid #ffffff;
 }
+@media (max-width: 767px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+@media (max-width: 582px) {
+  .nav-links {
+    margin: auto;
+  }
+  .nav-links a {
+    margin: 0.3em;
+    padding: 0.4em;
+  }
+}
+@media (max-width: 582px) {
+  .github-profile {
+    display: none;
+  }
+}

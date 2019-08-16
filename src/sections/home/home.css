@@ -1,7 +1,7 @@
 .home-content {
   height: 90vh;
   min-height: 50vh;
-  background-color: rgb(99, 48, 222);
+  background-color: #6330de;
   background: linear-gradient(
       277deg,
       rgba(213, 213, 213, 0.02) 0%,
@@ -49,14 +49,18 @@
 .profile-container {
   padding: 4.2rem 0;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   color: #eef0f2;
+  text-align: center;
 }
 
 .profile-title {
   font-size: 2.5rem;
+}
+.profile-title span {
+  flex: 1;
 }
 
 .profile-name {
@@ -72,6 +76,7 @@
 .profile-role {
   font-size: 2.5rem;
   padding: 0.5rem;
+  margin-bottom: 0.3em;
 }
 .profile-name,
 .profile-role {
@@ -102,4 +107,44 @@
   margin-left: 0.4em;
 
   color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .profile-title,
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profile-name,
+  .profile-role {
+    padding: 0;
+    font-size: 3rem;
+  }
+  .profile-role {
+    font-size: 2.65rem;
+  }
+  .hello-text,
+  .iam,
+  .city {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .city {
+    margin-top: 0.3rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .profile-role {
+    font-size: 1.75rem;
+  }
+  .profile-name {
+    font-size: 2rem;
+  }
+  .home-content {
+    height: auto;
+  }
+  .profile-container {
+    padding: 4rem 0 0 0;
+  }
 }

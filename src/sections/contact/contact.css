@@ -61,20 +61,14 @@
   padding: 0 3em;
   position: relative;
 }
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
-}
 
 input,
 textarea {
   margin: 0.6em 0;
   padding: 0.5em;
+  width: 100%;
   border-radius: 0.5em;
   border: 1px solid rgba(99, 48, 222, 0.5);
-  /* box-shadow: 0 0 0.1em 0.001em #6330de; */
   color: #6330de;
   outline: none;
   font-size: 1.2em;
@@ -105,4 +99,17 @@ button[type="submit"]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 350px) {
+  .contact-icon {
+    padding: 0.8em;
+    margin: 0.3em;
+  }
+  .social-links p::before,
+  .social-links p::after {
+    padding: 0 1em;
+  }
+  button[type="submit"] {
+    width: auto;
+  }
 }

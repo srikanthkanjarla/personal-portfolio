@@ -1,8 +1,6 @@
 .about-container {
-  width: 60%;
   margin: 0 auto;
   text-align: left;
-  padding: 1.5em 0;
 }
 
 .about-container p a {
@@ -58,4 +56,15 @@
 }
 .certifications {
   margin-top: 0.8rem;
+}
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .about-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-container {
+    width: 80%;
+  }
 }

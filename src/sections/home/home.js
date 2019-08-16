@@ -34,13 +34,13 @@ const Home = () => {
       </HeadRoom>
       <div className="profile-container">
         <h1 className="profile-title">
-          Hello, my name is{' '}
-          <span className="profile-name" data-text="Srikanth Kanjarla">
-            {data.site.siteMetadata.title}
-          </span>
+          <span className="hello-text">Hello, my name is</span>
+          <span className="profile-name">{data.site.siteMetadata.title}</span>
         </h1>
         <h6 className="profile-text">
-          I am a <span className="profile-role">{data.site.siteMetadata.role}</span> living in Hyderabad, India
+          <span className="iam">I am a</span>
+          <span className="profile-role">{data.site.siteMetadata.role}</span>
+          <span className="city">living in Hyderabad, India</span>
         </h6>
         <AnchorLink href="#about" className="contact-link">
           Know More <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: '0.5em' }} />
