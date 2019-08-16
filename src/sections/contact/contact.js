@@ -70,7 +70,7 @@ const Contact = () => {
         >
           <input type="hidden" name="form-name" value="contact" />
           <input type="text" name="name" placeholder="Your Name" required onChange={handleChange} />
-          <input type="email" name="email" placeholder="Your Email" required onChange={handleChange} />
+          <input type="text" name="email" placeholder="Your Email" required onChange={handleChange} />
           <textarea rows="4" name="message" placeholder="Message" required onChange={handleChange} />
           <button type="submit">
             send message <FontAwesomeIcon icon={faPaperPlane} />
