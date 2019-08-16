@@ -78,10 +78,18 @@ const Contact = () => {
             data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit}
           >
-            <input type="hidden" name="form-name" value="contact" />
-            <input type="text" name="name" placeholder="Your Name" required onChange={handleChange} />
-            <input type="text" name="email" placeholder="Your Email" required onChange={handleChange} />
-            <textarea rows="4" name="message" placeholder="Message" required onChange={handleChange} />
+            <label htmlFor="hidden">
+              <input type="hidden" name="form-name" value="contact" id="hidden" />
+            </label>
+            <label htmlFor="name">
+              <input type="text" id="name" name="name" placeholder="Your Name" required onChange={handleChange} />
+            </label>
+            <label htmlFor="email">
+              <input type="text" id="email" name="email" placeholder="Your Email" required onChange={handleChange} />
+            </label>
+            <label htmlFor="message">
+              <textarea rows="4" id="message" name="message" placeholder="Message" required onChange={handleChange} />
+            </label>
             <button type="submit">
               send message <FontAwesomeIcon icon={faPaperPlane} />
             </button>
