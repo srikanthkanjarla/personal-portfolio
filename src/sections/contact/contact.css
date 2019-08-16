@@ -99,3 +99,10 @@ button[type="submit"]:hover {
   background-color: #ffffff;
   transition: 0.2s all ease-in;
 }
+.thankyou-msg {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
