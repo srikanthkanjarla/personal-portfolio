@@ -47,11 +47,7 @@ const About = () => {
           groups.
         </p>
         <p>
-          Currently doing{' '}
-          <a href="https://chingu.io/" target="_blank" rel="noopener noreferrer">
-            Chingu.io Cohort project
-          </a>
-          , participating in{' '}
+          Currently working as a UI developer at DigiCubo, participating in{' '}
           <a href="https://w3develops.org/" target="_blank" rel="noopener noreferrer">
             W3Devlops React study group,
           </a>{' '}
