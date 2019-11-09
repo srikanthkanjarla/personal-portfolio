@@ -47,7 +47,7 @@ const About = () => {
           groups.
         </p>
         <p>
-          Currently working as a UI developer at DigiCubo, participating in{' '}
+          Currently working as a UI developer at <strong>DigiCubo</strong>, participating in{' '}
           <a href="https://w3develops.org/" target="_blank" rel="noopener noreferrer">
             W3Devlops React study group,
           </a>{' '}
